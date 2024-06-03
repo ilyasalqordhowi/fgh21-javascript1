@@ -27,7 +27,7 @@ if (typeof mtk === 'number',mtk >= 0,mtk <= 100){
 
 }
     const total = mtk + bahasaIndonesia + bahasaInggris + ipa;
-    const rataRAtaNilai = Math.round(total / 4);
+    const rataRAtaNilai = total / 4;
     let grade;
 
     if (rataRAtaNilai >= 90,rataRAtaNilai <= 100) {
