@@ -1,5 +1,5 @@
 const biodata = {
-    name: "m.ilyas nazhif azhar al qordhowi",
+    name:"m.ilyas nazhif azhar al qordhowi",
     age:18,
     hobbies:["berenang", "photography","bermain game"],
     isMarried:false,

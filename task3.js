@@ -1,9 +1,13 @@
-const printSegitiga = 6;
+const printSegitiga = 6
 
-for(let i= printSegitiga; i > 0; i--){
-    let line ='';
-    for(let num = 1; num <= i; num++){
-        line += num;
-    }
-    console.log(line);
+if(typeof printSegitiga === "number"){
+for(let numAwal = printSegitiga; numAwal > 0; numAwal--){
+  let text = ""
+  for(let i=1; i <= numAwal; i++){
+    text =text + i 
+  }
+  console.log(text)
+}
+}else{
+console.log("Data harus number")
 }
